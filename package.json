@@ -1,0 +1,22 @@
+{
+  "name": "mocha-fastcheck-tests",
+  "version": "0.0.1",
+  "description": "Mocha and fast-check testing example",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec"
+  },
+  "keywords": [
+    "property-based testing",
+    "end-to-end testing",
+    "unit testing",
+    "testing",
+    "mocha"
+  ],
+  "author": "Guillermo Gutierrez",
+  "license": "WTFPL",
+  "devDependencies": {
+    "fast-check": "^1.10.0",
+    "mocha": "^5.2.0"
+  }
+}
